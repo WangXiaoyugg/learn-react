@@ -1,0 +1,1 @@
+/** * Created by wangxiaoyu on 2017/8/12. */import React from 'react';let Progress = React.createClass({    render(){        return (            <div className="components-process row">                {this.props.progress}s            </div>        )    }})export default Progress;

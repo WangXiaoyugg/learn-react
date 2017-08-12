@@ -1,1 +1,0 @@
-/** * Created by wangxiaoyu on 2017/8/12. */import React from 'react';import './hello.less';let Hello = React.createClass({    render(){        return (            <div className='hello'>                hello,garen            </div>        )    }})export default Hello;
