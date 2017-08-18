@@ -1,0 +1,1 @@
+/** * Created by wangxiaoyu on 2017/8/18. */import { Dispatcher } from 'flux';//导出创建的全局dispatcher事件的分发器；export default  new Dispatcher();
