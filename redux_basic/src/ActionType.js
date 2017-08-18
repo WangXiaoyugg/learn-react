@@ -1,0 +1,1 @@
+/** * Created by wangxiaoyu on 2017/8/18. *///定义动作的类型export const INCREMENT = 'increment';export const DECREMENT = 'decrement';
