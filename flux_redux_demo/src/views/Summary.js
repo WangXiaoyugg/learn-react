@@ -1,0 +1,1 @@
+/** * Created by wangxiaoyu on 2017/8/18. */import React, { Component } from 'react';class Summary extends Component {    render(){        return(            <div>Total Count: </div>        )    }}export default Summary;
