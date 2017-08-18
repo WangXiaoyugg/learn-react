@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ControlPanel from './views/ControlPanel';
+import {Provider} from 'react-redux';
+import registerServiceWorker from './registerServiceWorker';
+
+
+
 import './index.css';
 
-import store from './Store'
-import Provider from './Provider'
+import store from './Store';
+import ControlPanel from './views/ControlPanel';
 
-import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
     <Provider store={store}>
