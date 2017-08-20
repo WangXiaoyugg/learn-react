@@ -1,0 +1,1 @@
+/** * Created by wangxiaoyu on 2017/8/20. */import {SET_FILTER} from './actionTypes'export const setFilter = filterType => ({    type:SET_FILTER,    filter:filterType})
